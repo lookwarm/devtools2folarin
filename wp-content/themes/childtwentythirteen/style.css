@@ -6,7 +6,17 @@ Version: 1.0
 Template: twentythirteen
 */
 
-@import url('../twentythirteen/style.css')
+@import url('../twentythirteen/style.css');
+@import url('https://fonts.googleapis.com/css?family=Wendy+One');
 
 /* typography  changes */
+
+h1, h2, h3, h4, h5, p, body {
+	font-family: 'Wendy One', sans-serif;
+}
+
+h1.entry-title {
+	font-family: 'Wendy One', sans-serif;
+	color:gray;
+}
 
