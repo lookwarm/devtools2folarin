@@ -8,15 +8,53 @@ Template: twentythirteen
 
 @import url('../twentythirteen/style.css');
 @import url('https://fonts.googleapis.com/css?family=Wendy+One');
+@import url('https://fonts.googleapis.com/css?family=Amiko:400,700');
 
 /* typography  changes */
 
-h1, h2, h3, h4, h5, p, body {
+h1, h2, h3, h4, h5, p, {
 	font-family: 'Wendy One', sans-serif;
+}
+
+body {
+	background-color: grey;
+}
+h1.site-title{
+	font-family:'Amiko', sans-serif;
 }
 
 h1.entry-title {
 	font-family: 'Wendy One', sans-serif;
-	color:gray;
+	color: #ed331c;
 }
 
+.sticky::before {
+	content: "Featured Content";
+	display: block;
+	font-family:'Amiko', sans-serif;
+	text-align: center;
+	background-color: gray;
+	font-size: 80%;
+	padding: 1em;
+}
+
+.navbar {
+    background-color: #ed331c;
+    margin: 0 auto;
+    max-width: 1600px;
+    width: 100%;
+}
+
+
+.archive-title, .archive-meta {
+    font: 200 italic 20px "Amiko", Helvetica, sans-serif;
+    margin: 0 auto;
+    max-width: 1040px;
+    padding: 30px 0;
+    width: 100%;
+    color: #ed331c;
+}
+
+.archive-header {
+    background-color: #f7f5e7;
+}
