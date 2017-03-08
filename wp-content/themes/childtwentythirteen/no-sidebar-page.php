@@ -44,5 +44,3 @@ get_header(); ?>
 	</div><!-- #primary -->
 
 <!--removing sidebar from this page -->
-<!--<?php get_sidebar(); ?> -->
-<!--<?php get_footer(); ?> -->

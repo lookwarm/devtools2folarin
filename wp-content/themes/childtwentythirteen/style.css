@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, p, {
 }
 
 body {
-	background-color: grey;
+	background: grey;
 }
 h1.site-title{
 	font-family:'Amiko', sans-serif;
